@@ -1,9 +1,8 @@
 name: hello-world
-run-name: its from ${{ github.actor }}
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: echo "Hello World!" from ${{ github.actor }}
