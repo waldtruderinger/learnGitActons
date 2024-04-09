@@ -1,3 +1,3 @@
-# learnGitActons
+# learnGitActions
 
 hello world
